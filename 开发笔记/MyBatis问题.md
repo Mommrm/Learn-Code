@@ -24,3 +24,10 @@
 | DATETIME  | 19             | DATETIME      | Timestamp | 93              | 
 | TIMESTAMP | 19             | TIMESTAMP     | Timestamp | 93              | 
 | YEAR      | 4              | YEAR          | Date      | 91              |
+
+
+## MyBatis映射文件中常见错误
+1. 接口层加上@Mapper
+2. xml文件中namespace和mapper的id要一致
+3. xml文件命名空间要和接口层一致
+4. resource下的文件夹要用/来划分层级，不能使用.
