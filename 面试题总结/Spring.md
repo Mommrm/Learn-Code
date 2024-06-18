@@ -1,4 +1,4 @@
-1. Spring、SpringMVC、SpringBoot的区别
+## Spring、SpringMVC、SpringBoot的区别
 Spring:
 是一个企业级应用开发的一站式框架，提供了IoC（控制反转）和AOP（面向切面编程）两大核心特性，简化了Java EE开发中的复杂性。
 提供了事务管理、数据访问、Web服务等多种集成方案，支持模块化开发，使得组件之间的耦合度大大降低。
@@ -12,12 +12,12 @@ SpringBoot:
 内嵌了Tomcat、Jetty等Servlet容器，使得开发者可以直接运行应用，无需部署到外部服务器。
 强调“开箱即用”，极大提升了开发效率，特别适合微服务架构的快速开发和部署。
 
-2. SpringBoot中的Starter理解
+## SpringBoot中的Starter理解
 SpringBoot的Starter是一种特殊的Maven依赖，它集成了若干个jar包，为特定功能提供一站式解决方案。每个Starter都遵循一定的命名规范，如spring-boot-starter-web用于Web开发，spring-boot-starter-data-jpa用于数据库操作。
 
 Starter的工作原理是通过自动配置和条件注解，根据项目中引入的Starter自动装配相关的bean，使得开发者不需要手动配置就能快速开始开发。例如，引入spring-boot-starter-web后，Spring Boot会自动配置Tomcat、Spring MVC等组件，开发者只需关注业务逻辑。
 
-3. SpringBoot中的自动配置
+## SpringBoot中的自动配置
 SpringBoot的自动配置是其核心特性之一，它基于Spring框架的@Configuration、@ConditionalOnClass、@ConditionalOnMissingBean等注解，以及SpringFactoriesLoader机制实现。
 
 原理:
