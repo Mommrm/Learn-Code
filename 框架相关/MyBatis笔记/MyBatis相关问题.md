@@ -42,5 +42,3 @@ order: 定义生成Id值的时机，AFTER表示在insert语句执行后生成的
     </choose>
 </select>
 ```
-
-- <foreach>:
