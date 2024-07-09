@@ -40,7 +40,7 @@ JDK1.7的时候是使用分段锁的方式(Segment),每把锁只锁容器中的�
 JDK1.8后使用Node数组 + 链表 + 红黑树的数据结构来实现，并发控制使用synchronized和CAS来进行操作
 
 Hashtable：
-使用的使用同一把synchronized锁，只有一个线程能put元素
+使用的是同一把synchronized锁，只有一个线程能put元素
 
 
 ## 为什么ConcurrentHashMap不允许Null值作为键或值
